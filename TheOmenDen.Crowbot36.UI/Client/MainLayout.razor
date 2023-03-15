@@ -1,0 +1,20 @@
+﻿@layout RootLayout
+@inherits LayoutComponentBase
+<Layout Sider>
+    <LayoutSider>
+        <LayoutSiderContent>
+
+        </LayoutSiderContent>
+    </LayoutSider>
+    <Layout>
+        <LayoutHeader Fixed>
+
+        </LayoutHeader>
+        <LayoutContent Padding="Padding.Is4.OnX"
+        Margin="Margin.Is2.OnY">
+        <LoadingIndicator FullScreen>
+            @Body
+        </LoadingIndicator>
+    </LayoutContent>
+    </Layout>
+</Layout>

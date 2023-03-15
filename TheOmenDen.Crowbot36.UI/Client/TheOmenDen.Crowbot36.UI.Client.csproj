@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<Deterministic>False</Deterministic>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Date>$([System.DateTime]::Now.ToString("1.MM.dd.HHss")</Date>
+		<AssemblyFileVersionAttribute>[assembly:System.Reflection.AssemblyFileVersion("$(Date)")]</AssemblyFileVersionAttribute>
+		<AssemblyCompanyAttribute>[assembly:System.Reflection.AssemblyCompany("The Omen Den L.L.C.")]</AssemblyCompanyAttribute>
+		<AssemblyTitleAttribute>[assembly:System.Reflection.AssemblyTitle("Crowbot36")]</AssemblyTitleAttribute>
+		<Title>CrowBot36</Title>
+		<Company>The Omen Den L.L.C.</Company>
+		<Product>CrowBot36</Product>
+		<Description>A simple Twitch Chatbot that Caws!</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/theomenden/TheOmenDen.CrowBot36</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>blazor;csharp;theomenden;twitch;crows</PackageTags>
+		<PackageLicenseExpression>CC-BY-NC-SA-4.0</PackageLicenseExpression>
+		<SignAssembly>False</SignAssembly>
+		<ErrorReport>prompt</ErrorReport>
+		<Copyright>2023</Copyright>
+	</PropertyGroup>
+
+	<Target Name="GenerateVersionInfo" BeforeTargets="BeforeBuild">
+		<WriteLinesToFile File="Properties\VersionInfo.cs" Lines="$(AssemblyFileVersionAttribute)$([System.Environment]::NewLine)$(AssemblyCompanyAttribute)$([System.Environment]::NewLine)$(AssemblyTitleAttribute)" Overwrite="true"></WriteLinesToFile>
+	</Target>
+
+	<ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.3.0" />
+    <PackageReference Include="Blazorise" Version="1.2.1" />
+    <PackageReference Include="Blazorise.Animate" Version="1.2.1" />
+    <PackageReference Include="Blazorise.Bootstrap5" Version="1.2.1" />
+    <PackageReference Include="Blazorise.Charts" Version="1.2.1" />
+    <PackageReference Include="Blazorise.Charts.DataLabels" Version="1.2.1" />
+    <PackageReference Include="Blazorise.Components" Version="1.2.1" />
+    <PackageReference Include="Blazorise.FluentValidation" Version="1.2.1" />
+    <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.2.1" />
+    <PackageReference Include="Blazorise.Licensing" Version="1.1.0" />
+    <PackageReference Include="Blazorise.LoadingIndicator" Version="1.2.1" />
+    <PackageReference Include="Blazorise.LottieAnimation" Version="1.2.1" />
+    <PackageReference Include="Blazorise.QRCode" Version="1.2.1" />
+    <PackageReference Include="Blazorise.Video" Version="1.2.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="7.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.4" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+    <PackageReference Include="TheOmenDen.Shared" Version="2023.1.15.141" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\TheOmenDen.Crowbot36.UI.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Styles\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,61 @@
+﻿<Bar @ref="@_sidebar"
+     Mode="BarMode.VerticalInline"
+     Background="Background.Dark"
+     ThemeContrast="ThemeContrast.Dark"
+     CollapseMode="BarCollapseMode.Small"
+     NavigationBreakpoint="Breakpoint.Tablet"
+     Breakpoint="Breakpoint.Desktop"
+     Shadow="Shadow.Large">
+    <BarToggler />
+    <BarBrand Margin="Margin.Is2.FromEnd"
+              Casing="CharacterCasing.Upper" />
+    <BarMenu Margin="Margin.Is3.FromTop">
+        <BarStart>
+            <BarItem>
+                <BarLink To="">
+                    <BarIcon IconName="IconName.Home" />
+                    Home
+                </BarLink>
+            </BarItem>
+        </BarStart>
+        <BarEnd>
+            <BarDropdown>
+                <BarDropdownToggle>
+                    Bot Information
+                </BarDropdownToggle>
+                <BarDropdownMenu>
+                    <BarDropdownItem>
+                        <BarIcon IconName="IconName.Code" />
+                        V-@AssemblyProductVersion
+                    </BarDropdownItem>
+                    <BarDropdownItem>
+                        <BarIcon
+                    </BarDropdownItem>
+                    <BarDropdownItem>
+                        <BarLink To="https://aluthecrow.info" Target="Target.Blank">
+                            Alu's Carrd <BarIcon IconName="IconName.ExternalLinkSquareAlt" />
+                        </BarLink>
+                    </BarDropdownItem>
+                    <BarDropdownItem TextColor="TextColor.Muted"
+                                      Flex="Flex.Column.JustifyContent.Between">
+                            <BarLink To="https://theomenden.com" Target="Target.Blank">
+                                @ApplicationDevelopmentCompany
+                                <Icon Name="IconName.ExternalLinkSquareAlt" />
+                            </BarLink>
+                            <Small>
+                                <Icon Name="IconName.Copyright" IconSize="IconSize.Large" />
+                                Copyright 2023
+                            </Small>
+                        </BarDropdownItem>
+                    <BarDropdownItem TextColor="TextColor.Muted">
+                        Powered By: 
+                        <BarLink To="https://blazorise.com" Target="Target.Blank">
+                            Blazorise
+                        <BarIcon IconName="IconName.ExternalLinkSquareAlt" />    
+                        </BarLink>
+                    </BarDropdownItem>
+                </BarDropdownMenu>
+            </BarDropdown>
+        </BarEnd>
+    </BarMenu>
+</Bar>
