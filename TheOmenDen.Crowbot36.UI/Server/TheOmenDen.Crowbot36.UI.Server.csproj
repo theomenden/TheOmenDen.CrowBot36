@@ -10,7 +10,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="7.0.4" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.0" />
     <PackageReference Include="TheOmenDen.Shared" Version="2023.3.17.2238" />
-    <PackageReference Include="TheOmenDen.Shared.Logging" Version="2.2.10.2201" />
+    <PackageReference Include="TheOmenDen.Shared.Logging" Version="2.3.20.1750" />
     <PackageReference Include="TwitchLib" Version="3.5.3" />
     <PackageReference Include="TwitchLib.Api" Version="3.9.0" />
     <PackageReference Include="TwitchLib.Api.Core" Version="3.9.0" />
