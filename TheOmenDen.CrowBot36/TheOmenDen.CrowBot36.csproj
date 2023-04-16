@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AspNet.Security.OAuth.Twitch" Version="7.0.0" />
+    <PackageReference Include="AspNet.Security.OAuth.Twitch" Version="7.0.1" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
     <PackageReference Include="TheOmenDen.Shared" Version="2023.3.25.112" />
     <PackageReference Include="TheOmenDen.Shared.Logging" Version="2.3.20.1750" />
