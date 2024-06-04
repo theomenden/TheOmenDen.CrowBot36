@@ -46,7 +46,7 @@
     <PackageReference Include="Blazorise.FluentValidation" Version="1.5.3" />
     <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.5.3" />
     <PackageReference Include="Blazorise.Licensing" Version="1.2.0" />
-    <PackageReference Include="Blazorise.LoadingIndicator" Version="1.5.2" />
+    <PackageReference Include="Blazorise.LoadingIndicator" Version="1.5.3" />
     <PackageReference Include="Blazorise.LottieAnimation" Version="1.5.2" />
     <PackageReference Include="Blazorise.QRCode" Version="1.5.2" />
     <PackageReference Include="Blazorise.Video" Version="1.5.2" />
