@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="7.0.20" />
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.3" />
     <PackageReference Include="TheOmenDen.Shared" Version="2023.11.27.49" />
     <PackageReference Include="TheOmenDen.Shared.Logging" Version="2.12.24.2336" />
     <PackageReference Include="TwitchLib" Version="3.5.3" />
