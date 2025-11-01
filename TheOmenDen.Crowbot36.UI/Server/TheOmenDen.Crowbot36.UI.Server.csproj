@@ -15,7 +15,7 @@
     <PackageReference Include="TwitchLib.Api" Version="3.10.2" />
     <PackageReference Include="TwitchLib.Api.Core" Version="3.10.2" />
     <PackageReference Include="TwitchLib.Api.Core.Enums" Version="3.10.2" />
-    <PackageReference Include="TwitchLib.Api.Core.Interfaces" Version="3.9.0" />
+    <PackageReference Include="TwitchLib.Api.Core.Interfaces" Version="3.10.2" />
     <PackageReference Include="TwitchLib.Api.Core.Models" Version="3.9.0" />
     <PackageReference Include="TwitchLib.Api.Helix" Version="3.9.0" />
     <PackageReference Include="TwitchLib.Api.Helix.Models" Version="3.9.0" />
