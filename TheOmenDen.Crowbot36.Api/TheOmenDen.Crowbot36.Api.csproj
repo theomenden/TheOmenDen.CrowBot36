@@ -22,7 +22,7 @@
     <PackageReference Include="TwitchLib.Api.Core.Interfaces" Version="3.10.2" />
     <PackageReference Include="TwitchLib.Api.Core.Models" Version="3.10.2" />
     <PackageReference Include="TwitchLib.Api.Helix" Version="3.10.2" />
-    <PackageReference Include="TwitchLib.Api.Helix.Models" Version="3.9.0" />
+    <PackageReference Include="TwitchLib.Api.Helix.Models" Version="3.10.2" />
     <PackageReference Include="TwitchLib.Client" Version="3.4.0" />
     <PackageReference Include="TwitchLib.Communication" Version="2.0.1" />
     <PackageReference Include="TwitchLib.PubSub" Version="3.2.6" />
