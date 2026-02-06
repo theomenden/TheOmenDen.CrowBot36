@@ -50,11 +50,11 @@
     <PackageReference Include="Blazorise.LottieAnimation" Version="1.8.10" />
     <PackageReference Include="Blazorise.QRCode" Version="1.8.10" />
     <PackageReference Include="Blazorise.Video" Version="1.8.10" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.20" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="7.0.20" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.20" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.3.9" />
-    <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="10.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.2" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.2" />
     <PackageReference Include="TheOmenDen.Shared" Version="2023.11.27.49" />
   </ItemGroup>
 
