@@ -1,0 +1,19 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.5.3">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+    <AspireUseCliBundle>true</AspireUseCliBundle>
+    <UserSecretsId>f3b8c1d2-6a4e-4f7b-9c2d-8e1a5b7c3d90</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.SqlServer" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\TheOmenDen.CrowBot36.Bot\TheOmenDen.CrowBot36.Bot.csproj" />
+    <ProjectReference Include="..\..\src\TheOmenDen.CrowBot36.Dashboard\TheOmenDen.CrowBot36.Dashboard.csproj" />
+  </ItemGroup>
+
+</Project>

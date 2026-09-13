@@ -1,2 +1,12 @@
 <Solution>
+  <Folder Name="/aspire/">
+    <Project Path="aspire/TheOmenDen.CrowBot36.AppHost/TheOmenDen.CrowBot36.AppHost.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/TheOmenDen.CrowBot36.Bot/TheOmenDen.CrowBot36.Bot.csproj" />
+    <Project Path="src/TheOmenDen.CrowBot36.Dashboard/TheOmenDen.CrowBot36.Dashboard.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TheOmenDen.CrowBot36.Tests/TheOmenDen.CrowBot36.Tests.csproj" />
+  </Folder>
 </Solution>
